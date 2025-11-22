@@ -55,4 +55,3 @@ jobs:
       #     APK_FILE=$(find build/app/outputs/flutter-apk -name 'app-release.apk')
       #     echo 'APK_FILE=$APK_FILE' >> $GITHUB_ENV
       #     echo 'APK_FILE_NAME=$(basename $APK_FILE .apk)' >> $GITHUB_ENV
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
